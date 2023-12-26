@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/gin-gonic/gin"
-	"github.com/uussoop/reverseproxy-gradio/configreader"
+	"github.com/uussoop/simple-reverse-proxy/configreader"
 )
 
 type proxyFromInStructure map[string]*httputil.ReverseProxy

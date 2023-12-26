@@ -1,4 +1,4 @@
-module github.com/uussoop/reverseproxy-gradio
+module github.com/uussoop/simple-reverse-proxy
 
 go 1.20
 
