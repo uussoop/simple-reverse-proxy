@@ -35,7 +35,7 @@ func middlewareDispatcher(pr *proxyFromInStructure) gin.HandlerFunc {
 		host := c.Request.Host
 		for k, v := range *pr {
 
-			if strings.Contains(k, host) {
+			if strings.Contains(host, k) {
 
 				v.ServeHTTP(c.Writer, c.Request)
 				return
