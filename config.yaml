@@ -1,0 +1,10 @@
+proxies:
+  - name:
+    from:
+      scheme: "https://"
+      host: "icanhazip.com"
+      port: 
+    to:
+      scheme: "https://"
+      host: "icanhazip.com"
+      port: 
